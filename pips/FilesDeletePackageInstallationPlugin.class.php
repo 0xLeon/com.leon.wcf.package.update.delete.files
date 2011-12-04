@@ -42,7 +42,7 @@ class FilesDeletePackageInstallationPlugin extends AbstractXMLPackageInstallatio
 								throw new SystemException("Required 'name' attribute for 'file'-tag is missing.");
 							}
 							
-							if (in_array($fileInfo['attrs']['name'], $availableFiles)) {
+							if (!in_array($fileInfo['attrs']['name'], $availableFiles)) {
 								throw new SystemException('A package can delete its own files only');
 							}
 							

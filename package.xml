@@ -18,5 +18,8 @@
 	</authorinformation>
 	<instructions type="install">
 		<packageinstallationplugins>pips.tar</packageinstallationplugins>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
 	</instructions>
 </package>

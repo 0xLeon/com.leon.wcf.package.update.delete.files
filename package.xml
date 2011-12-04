@@ -6,7 +6,7 @@
 		<packagedescription languagecode="de"><![CDATA[Ermöglicht es, Dateien während des Updates zu löschen.]]></packagedescription>
 		<packagedescription languagecode="en"><![CDATA[Adds the possibility to delete files during update.]]></packagedescription>
 		<packageurl><![CDATA[https://github.com/Leon-/com.leon.wcf.package.update.delete.files]]></packageurl>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<date>2011-12-04</date>
 		<isunique>1</isunique>
         <standalone>0</standalone>
@@ -18,6 +18,12 @@
 	</authorinformation>
 	<instructions type="install">
 		<packageinstallationplugins>pips.tar</packageinstallationplugins>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.0">
 		<languages languagecode="de-informal">de-informal.xml</languages>
 		<languages languagecode="de">de.xml</languages>
 		<languages languagecode="en">en.xml</languages>

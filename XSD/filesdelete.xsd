@@ -4,7 +4,7 @@
 	<xs:element name="files">
 		<xs:complexType>
 			<xs:all>
-				<xs:element name="delete" type="delete" minOccurs="1" maxOccurs="unbounded" />
+				<xs:element name="delete" type="delete" minOccurs="1" />
 			</xs:all>
 		</xs:complexType>
 	</xs:element>
